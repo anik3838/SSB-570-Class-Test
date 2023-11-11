@@ -1,0 +1,895 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.help{
+    background: #efefef;
+    color: #7f7f7f;
+    
+}
+.help p{
+    margin-top: 8px;
+}
+.help ul{
+    list-style: none;
+    margin-top: 8px;
+}
+.help ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.help ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #7f7f7f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+
+
+header{
+    height: 100px;
+    background: #ffffff;
+}
+header img{
+    margin-top: 25px;
+    cursor: pointer;
+}
+header ul{
+    list-style: none;
+    margin-top: 25px;
+    
+}
+header ul li{
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #161616;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+header .join{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ff9b1a;
+    display: inline-block;
+    color: white;
+    border-radius: 30px;
+    margin-left: 20px;
+    transition: .5s ease-in-out;
+    border: 1px solid #ff9b1a;
+}
+header .join:hover{
+    background: transparent;
+    border: 1px solid #989898;
+    color: #00aced;
+}
+header a{
+    transition: .5s;
+}
+header a:hover{
+    color: #e46704;
+}
+.banner{
+    background-image: url(./pic/baner.png);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+
+.banner h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.banner span{
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+}
+.banner .mil{
+    padding: 0 80px;
+}
+.banner span p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.us {
+    margin-top: 52px;
+    margin-left: 128px;
+}
+.us a{
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ff9b1a;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #e46704;
+    transition: .5s ease-in-out;
+}
+.us .join:hover{
+    background: transparent;
+    border: 1px solid #989898;
+   
+}
+.us .con:hover{
+    background: #e46704;
+    border: 1px solid #e46704;
+   
+}
+.us .con{
+    background: transparent;
+    border: 1px solid #7f7f7f;
+}
+
+.ser{
+    height: 550px;
+}
+.ser h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+}
+.ser .it{
+    font-family: 'Montserrat', sans-serif;
+    color: #6e6e6e;
+    padding: 10px 250px;
+}
+.ser .one span{
+    position: relative;
+}
+.ser .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.ser .one span::after{
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.ser:hover .one span::after{
+ 
+    width:30px;
+}
+.ser:hover .one span::before{
+ 
+    width:30px;
+}
+.bitcoin{
+    margin-top: 50px;
+}
+.bitcoin span{
+    font-family: 'Montserrat', sans-serif;
+    padding: 6px 0;
+    display: block;
+    color: #2b2b2b;
+    font-weight: 700;
+}
+.bitcoin p{
+    color: #424242;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.view a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #424242;
+    border-radius: 30px;
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+.banner2{
+    background-image: url(./pic/banner-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+
+}
+.banner2 .iphn {
+    margin-top: 23%;
+}
+.banner2 h2{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 16%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+.banner2 .one span{
+    position: relative;
+}
+.banner2 .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    background: #e46704;
+    transition: .3s;
+}
+.banner2 .one span::after{
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    top: 10px;
+    right: -35px;
+    background: #e46704;
+    transition: .3s;
+}
+.banner2:hover .one span::after{
+ 
+    width:30px;
+}
+.banner2:hover .one span::before{
+    
+    width:30px;
+}
+
+.lo {
+    display: flex;
+    margin-top: 50px;
+}
+.lorem{
+     color: white;
+     font-family: 'Raleway', sans-serif;
+     margin-left: 20px;
+
+}
+.count{
+    height: 200px;
+    background: #ff9b1a;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.count h1{
+    margin-top: 50px;
+}
+
+
+
+.anik {
+    height: 640px;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+
+.support_section{
+    
+}
+.support_img img{
+margin-top: 50px;
+}
+.safe{
+
+position: absolute;
+
+top: 16%;
+
+left: 33%;
+
+transform: translate(-50%,-50%);
+}
+.expart{
+    
+position: absolute;
+    
+top: 16%;
+    
+right: 23%;
+    
+transform: translate(-50%, -50%);
+}
+.mobile_app {
+    position: absolute;
+    top: 48%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+}
+.support_section h6{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #252525;
+}
+.instant_exchange{
+    position: absolute;
+    top: 48%;
+    right: 12%;
+    transform: translate(-50%,-50%);
+}
+.wallet {
+    position: absolute;
+    bottom: 0%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+}
+.r_buy{
+    position: absolute;
+    bottom: 0%;
+    right: 23%;
+    transform: translate(-50%,-50%);
+}
+
+
+/* END  */
+
+.team{
+    height: 800px;
+}
+
+.te h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+.te p{
+    color: #6e6e6e;
+    padding: 0 250px;
+}
+.team .one span{
+    position: relative;
+}
+.team .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.team .one span::after{
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.team:hover .one span::after{
+ 
+    width:30px;
+}
+.team:hover .one span::before{
+ 
+    width:30px;
+}
+
+.team img{
+    margin-top: 100px;
+}
+.jon h5{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+.jon p{
+    color: #fba057;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-transform:uppercase;
+}
+
+.banner3{
+    background-image: url(./pic/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner3 h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-top: 80px;
+}
+
+.banner3 .one span{
+    position: relative;
+}
+.banner3 .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.banner3 .one span::after{
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.banner3:hover .one span::after{
+ 
+    width:30px;
+}
+.banner3:hover .one span::before{
+ 
+    width:30px;
+}
+form{
+    margin-top: 50px;
+}
+form input{
+    width: 30%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #ffff;
+    background: transparent;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+form textarea {
+    width: 91%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #ffff;
+    background: transparent;
+    margin-top: 40px;
+}
+textarea:focus{
+    outline: none;
+}
+textarea::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+.send a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #e46704;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+}
+.our{
+    height: 800px;
+}
+.our .te h1{
+    margin-top: 50px;
+}
+
+.our .one span{
+    position: relative;
+}
+.our .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.our .one span::after{
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.our:hover .one span::after{
+ 
+    width:30px;
+}
+.our:hover .one span::before{
+ 
+    width:30px;
+}
+
+.bit{
+    height: 460px;
+    width: 100%;
+    border: 1px solid #c5bfbf;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.bit .pen{
+    margin-top: -20px;
+    margin-left: 15px;
+}
+.bit span{
+    color: #5c5b5b;
+    font-weight: 500;
+
+}
+.bit .date{
+    margin-left: 100px;
+
+}
+.bit h6{
+    font-weight: 600;
+    padding: 15px 0px 10px 15px;
+}
+.bit p{
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: 400;
+    padding: 0 15px;
+}
+
+
+
+.claint{
+    height: 500px;
+    margin-top: 80px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 6% !important;
+    margin-left: 47%;
+}
+
+.happy .first{
+   font-size: 18px;
+   padding: 20px 150px 30px;
+   font-family: 'Rufina', serif;
+    font-weight: 500;
+    line-height: 33px;
+    color: #263a41;
+}
+.claint .happy h1{
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.post img{
+    width: 100px !important;
+    border-radius: 50% !important;
+    margin-top: 50px;
+}
+.post p{
+    font-family: 'Rufina', serif;
+    font-weight: 600;
+    font-size: 21px;
+    color: #263a41;
+    margin-top: 20px;
+}
+.post span{
+    color: #e46704;
+}
+.claint .one span{
+    position: relative;
+}
+.claint .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.claint .one span::after{
+    content: "";
+    height: 2px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #e46704;
+    transition: .3s;
+}
+.claint:hover .one span::after{
+    width:30px;
+}
+.claint:hover .one span::before{
+    width:30px;
+}
+
+footer{
+    background: #101010;
+    height: 370px;
+}
+footer img{
+    padding: 50px 0;
+    
+}
+.is{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+footer .sp{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    display: inline-block;
+   
+
+}
+.address{
+    display: flex;
+   
+}
+.ico{
+
+    color: #989898;
+    font-size: 15px;
+}
+.in {
+    color: #686565;
+    font-size: 15px;
+    margin-left: 20px;
+  
+}
+.in a{
+    color:#989898;
+    text-decoration: none;
+}
+.sp{
+    text-transform: uppercase;
+}
+footer .one span{
+    position: relative;
+}
+footer .one span::before{
+    content: "";
+    height: 2px;
+    width:0 ;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: #e46704;
+    transition: .3s;
+}
+
+footer:hover .one span::before{
+    width:30px;
+}
+footer .ba a{
+    text-decoration: none;
+    color: #989898;
+    margin-top: -5px;
+    
+}
+footer article{
+    color: #989898;
+}
+.put input{
+   
+    padding: 9px;
+    border-radius: 20px;
+    border: none;
+}
+.put input::placeholder{
+    color: rgb(114, 107, 107);
+}
+.put  img {
+    margin-left: -40px;
+    margin-top: -3px;
+    cursor: pointer;
+}
+.iconn i{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #989898;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: #989898;
+    margin-left: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+.iconn i:hover{
+    color: #00aced;
+    border: 1px solid #00aced;
+}
+main{
+    background: #000;
+    height: 60px;
+    color: #989898;
+}
+main ul{
+    list-style: none;
+   
+}
+main ul li{
+    display: inline-block;
+}
+main ul li a{
+    text-decoration: none;
+    color: #989898;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+i.fa-solid.fa-arrow-right {
+    color: #e46704;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 20px;
+}
+i.fa-solid.fa-arrow-left {
+    color: #e46704;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    font-size: 20px;
+}
+footer a{
+    transition: .3s ease-in-out;
+}
+
+footer a:hover{
+    color: #ca9906;
+    letter-spacing: 1px;
+}
+main a{
+    transition: .5s;
+}
+main a:hover{
+    color: #e46704;
+}
+
+
+
+
+.security_section {
+
+    padding: 70px 0;
+}
+
+.security_img {
+    position: relative;
+    margin-bottom: 25px;
+    width: 65px;
+    margin: auto;
+}
+
+.security {
+    text-align: center;
+    border: 2px solid #e1e1e1;
+    padding: 35px 25px;
+    border-radius: 5px;
+}
+
+.security h5 {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.security p {
+    color: #545454;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.security:hover {
+    background-image: url('./pic/bitpro.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #d6980b;
+}
+
+.image_1 {
+    position: absolute;
+    z-index: 0;
+}
+
+.image_2 {
+    position: relative;
+    z-index: -1;
+}
+
+.security:hover .security_img_1 {
+    display: block;
+    position: absolute;
+
+}
+
+ .sc_1 h5 {
+        margin-top: 19px !important;
+}
+
+.security_content h5{
+margin-top: 25px;
+}
+
+.security:hover .image_1 {
+    display: none;
+}
+
+.security:hover .image_2 {
+    z-index: 1;
+}
+
+.security:hover h5 {
+    color: #fff;
+}
+
+.security:hover p {
+    color: #fff;
+}
+
+canvas.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
